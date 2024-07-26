@@ -5,7 +5,6 @@
 
 #include "GameFramework/PlayerState.h"
 #include "PlayerController/ClubXPlayerController.h"
-#include "Subsystem/PlayerInfoSubsystem.h"
 
 
 void AClubXGameMode::PostLogin(APlayerController* NewPlayer)

@@ -123,7 +123,7 @@ void AClubXPlayerCharacter::SetupPlayerInputComponent(UInputComponent* PlayerInp
 		EnhancedInputComponent->BindAction(LookAction, ETriggerEvent::Triggered, this, &AClubXPlayerCharacter::Look);
 
 		//Interact
-		//EnhancedInputComponent->BindAction(InteractAction, ETriggerEvent::Completed, this, &AClubXPlayerController::Interact);
+		EnhancedInputComponent->BindAction(InteractAction, ETriggerEvent::Completed, this, &AClubXPlayerCharacter::Interact);
 	}
 }
 
@@ -160,5 +160,10 @@ void AClubXPlayerCharacter::Look(const FInputActionValue& Value)
 		AddControllerYawInput(LookAxisVector.X);
 		AddControllerPitchInput(LookAxisVector.Y);
 	}
+}
+
+void AClubXPlayerCharacter::Interact()
+{
+	// TODO: Play anim sit down or Teleport
 }
 

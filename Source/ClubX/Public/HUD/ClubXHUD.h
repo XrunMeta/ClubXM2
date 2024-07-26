@@ -19,7 +19,7 @@ protected:
 	virtual void BeginPlay() override;
 
 public:
-	UPROPERTY(EditDefaultsOnly, Category = "Reference")
+	UPROPERTY(BlueprintReadOnly, EditDefaultsOnly, Category = "Reference")
 	TSubclassOf<UClubXMainWidget> MainWidgetRef;
 
 	UPROPERTY(BlueprintReadOnly)

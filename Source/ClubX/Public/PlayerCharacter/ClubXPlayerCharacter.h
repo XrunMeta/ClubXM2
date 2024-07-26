@@ -52,8 +52,8 @@ protected:
 	TObjectPtr<UInputAction> LookAction;
 
 	/** Interact Input Action */
-	//UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = "InputConfiguration|Key")
-	//TObjectPtr<UInputAction> InteractAction;
+	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = "InputConfiguration|Key")
+	TObjectPtr<UInputAction> InteractAction;
 	
 	virtual void PossessedBy(AController* NewController) override;
 	virtual void OnRep_PlayerState() override;
@@ -64,6 +64,7 @@ protected:
 
 	void Move(const FInputActionValue& Value);
 	void Look(const FInputActionValue& Value);
+	void Interact();
 	
 private:
 	UPROPERTY()

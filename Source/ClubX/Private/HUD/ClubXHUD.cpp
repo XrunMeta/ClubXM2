@@ -12,11 +12,11 @@ void AClubXHUD::BeginPlay()
 {
 	Super::BeginPlay();
 
-	MainWidget = CreateWidget<UClubXMainWidget>(GetOwningPlayerController(), MainWidgetRef);
+	/*MainWidget = CreateWidget<UClubXMainWidget>(GetOwningPlayerController(), MainWidgetRef);
 	if (MainWidget)
 	{
 		MainWidget->AddToViewport();
-	}
+	}*/
 	
 	//AClubXPlayerState* PlayerState = GetOwningPlayerController()->GetPlayerState<AClubXPlayerState>();
 }
