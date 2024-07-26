@@ -1,6 +1,6 @@
 {
 	"FileVersion": 3,
-	"EngineAssociation": "{60A57368-47E2-87CA-3909-2094187AEF6E}",
+	"EngineAssociation": "{B9B493F4-4BA2-97CF-71AC-7DB74064602B}",
 	"Category": "",
 	"Description": "",
 	"Modules": [
@@ -34,6 +34,10 @@
 		},
 		{
 			"Name": "BinkMedia",
+			"Enabled": true
+		},
+		{
+			"Name": "HDRIBackdrop",
 			"Enabled": true
 		}
 	]
