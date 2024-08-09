@@ -421,6 +421,7 @@ Plugins/*/Intermediate/*
 # Cache files for the editor to use
 DerivedDataCache/*
 
+*_BuiltData.uasset
 Plugins/*
 _Packages/*
 *.zip
