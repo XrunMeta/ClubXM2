@@ -1,6 +1,6 @@
 {
 	"FileVersion": 3,
-	"EngineAssociation": "{1FC247F4-49A5-AA41-A2D8-199EBBAE2C17}",
+	"EngineAssociation": "{F3E02546-427A-2F25-6C22-C4A719886B20}",
 	"Category": "",
 	"Description": "",
 	"Modules": [
@@ -79,6 +79,10 @@
 		{
 			"Name": "SubversionSourceControl",
 			"Enabled": false
+		},
+		{
+			"Name": "MovieRenderPipeline",
+			"Enabled": true
 		},
 		{
 			"Name": "MinimapPlugin",
