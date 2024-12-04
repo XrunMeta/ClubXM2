@@ -1,6 +1,6 @@
 {
 	"FileVersion": 3,
-	"EngineAssociation": "{F3E02546-427A-2F25-6C22-C4A719886B20}",
+	"EngineAssociation": "{1FC247F4-49A5-AA41-A2D8-199EBBAE2C17}",
 	"Category": "",
 	"Description": "",
 	"Modules": [
@@ -88,6 +88,48 @@
 			"Name": "MinimapPlugin",
 			"Enabled": true,
 			"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/content/ad08325742e24fb0836391bca25c72bb"
+		},
+		{
+			"Name": "VRExpansionPlugin",
+			"Enabled": true,
+			"SupportedTargetPlatforms": [
+				"Win64",
+				"Linux",
+				"Android",
+				"Mac",
+				"IOS"
+			]
+		},
+		{
+			"Name": "NPC_Optimizator",
+			"Enabled": true,
+			"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/product/1d7dbb65f6b24b2db0401a80d07e84d9"
+		},
+		{
+			"Name": "OpenXRExpansionPlugin",
+			"Enabled": true,
+			"SupportedTargetPlatforms": [
+				"Win64",
+				"Linux",
+				"Android",
+				"Mac",
+				"IOS"
+			]
+		},
+		{
+			"Name": "OpenXR",
+			"Enabled": true,
+			"SupportedTargetPlatforms": [
+				"Win64",
+				"Linux",
+				"Android",
+				"VisionOS"
+			]
+		},
+		{
+			"Name": "TDSHeros",
+			"Enabled": true,
+			"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/product/df017478618a4e9bab4042c7485f7579"
 		}
 	],
 	"TargetPlatforms": [
