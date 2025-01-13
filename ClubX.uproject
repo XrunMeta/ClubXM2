@@ -1,6 +1,6 @@
 {
 	"FileVersion": 3,
-	"EngineAssociation": "{1FC247F4-49A5-AA41-A2D8-199EBBAE2C17}",
+	"EngineAssociation": "{35732478-4781-A80B-3146-6EA6832E74BF}",
 	"Category": "",
 	"Description": "",
 	"Modules": [
@@ -138,6 +138,11 @@
 		{
 			"Name": "AdvancedSessions",
 			"Enabled": false
+		},
+		{
+			"Name": "HttpHelper",
+			"Enabled": true,
+			"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/product/d6e73d57925e4acf89649cea5b686e86"
 		}
 	],
 	"TargetPlatforms": [
