@@ -1,6 +1,6 @@
 {
 	"FileVersion": 3,
-	"EngineAssociation": "{35732478-4781-A80B-3146-6EA6832E74BF}",
+	"EngineAssociation": "{313B3E6F-407B-ED8A-5F76-FE8245013226}",
 	"Category": "",
 	"Description": "",
 	"Modules": [
@@ -143,6 +143,10 @@
 			"Name": "HttpHelper",
 			"Enabled": true,
 			"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/product/d6e73d57925e4acf89649cea5b686e86"
+		},
+		{
+			"Name": "StaticMeshEditorModeling",
+			"Enabled": true
 		}
 	],
 	"TargetPlatforms": [
