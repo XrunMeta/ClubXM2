@@ -1,0 +1,88 @@
+apply plugin: 'com.android.application'
+android {
+	compileSdkVersion 33
+	buildToolsVersion "30.0.3"
+	defaultConfig {
+		applicationId "com.epicgames.mobile.login"
+		minSdkVersion 23
+		targetSdkVersion 33
+		versionCode 1
+		versionName "1.0"
+		externalNativeBuild {
+			cmake {
+				cppFlags "-std=c++17 -malign-double"
+				arguments "-DANDROID_STL=c++_shared"
+			}
+		}
+		splits {
+			abi {
+				enable true
+				reset()
+				include 'arm64-v8a', 'armeabi-v7a', 'x86', 'x86_64'
+				universalApk false
+			}
+		}
+		String lowerCaseClientId = ClientId.toLowerCase().substring(1, ClientId.length()-1)
+        resValue("string", "eos_login_protocol_scheme", "eos." + lowerCaseClientId)
+	}
+	signingConfigs {
+		debug {
+			storeFile rootProject.file('eossdkSampleKeystore.keystore')
+			keyAlias 'androiddebugkey'
+			keyPassword 'android'
+			storePassword 'android'
+		}
+	}
+	buildFeatures {
+		buildConfig = true
+	}
+	buildTypes {
+		buildTypes.each {
+			it.buildConfigField 'String', 'ProductId', ProductId
+			it.buildConfigField 'String', 'SandboxId', SandboxId
+			it.buildConfigField 'String', 'DeploymentId', DeploymentId
+			it.buildConfigField 'String', 'ClientId', ClientId
+			it.buildConfigField 'String', 'ClientSecret', ClientSecret
+		}
+		release {
+			minifyEnabled false
+			signingConfig signingConfigs.debug
+		}
+		debug {
+			signingConfig signingConfigs.debug
+		}
+	}
+	compileOptions {
+		sourceCompatibility JavaVersion.VERSION_1_8
+		targetCompatibility JavaVersion.VERSION_1_8
+	}
+	externalNativeBuild {
+		cmake {
+			path "src/main/cpp/CMakeLists.txt"
+		}
+	}
+	sourceSets {
+		main {
+			jniLibs.srcDirs = ["jniLibs"]
+		}
+	}
+}
+
+dependencies {
+	implementation 'androidx.appcompat:appcompat:1.5.1'
+	implementation 'androidx.constraintlayout:constraintlayout:2.1.4'
+	implementation 'androidx.security:security-crypto:1.0.0'
+	implementation 'androidx.browser:browser:1.4.0'
+	implementation 'androidx.webkit:webkit:1.7.0'
+	implementation 'com.google.android.material:material:1.2.1'
+	implementation files('../../../../SDK/Bin/Android/static-stdc++/aar/eossdk-StaticSTDC-release.aar')
+}
+
+tasks.register('unzipEosAar', Copy) {
+	from zipTree(file('../../../../SDK/Bin/Android/static-stdc++/aar/eossdk-StaticSTDC-release.aar'))
+	into file("${buildDir}/unpacked/eossdk-StaticSTDC-release")
+}
+
+tasks.named("preBuild") {
+	dependsOn { 'unzipEosAar' }
+}

@@ -422,7 +422,7 @@ Plugins/*/Intermediate/*
 DerivedDataCache/*
 
 *_BuiltData.uasset
-Plugins/*
+# Plugins/*
 _Packages/*
 *.zip
 *.rar

@@ -1,0 +1,11 @@
+<resources>
+	<string name="app_name">EOSLoginSample</string>
+	<string name="eos">Epic Online Services</string>
+	<string name="sample_name">Login Sample</string>
+	<string name="login">Log In</string>
+	<string name="logout">Log Out</string>
+	<string name="toggle_friends_ui">Toggle Friends UI</string>
+	<string name="logo_content_description">epic_logo_white</string>
+	<string name="account_title">Your Account</string>
+	<string name="username_placeholder">Username</string>
+</resources>

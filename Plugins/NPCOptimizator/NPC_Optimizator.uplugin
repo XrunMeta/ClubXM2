@@ -1,0 +1,40 @@
+{
+	"FileVersion": 3,
+	"Version": 24,
+	"VersionName": "1.6.6",
+	"FriendlyName": "NPC_Optimizator",
+	"Description": "NPC_Optimizator - automatic NPC optimization component for you game",
+	"Category": "Space Raccoon Game Studio",
+	"CreatedBy": "Space Raccoon Game Studio",
+	"CreatedByURL": "https://space-raccoon.com/",
+	"DocsURL": "https://github.com/SpaceRaccoonGameStudio/NPC_Optimizator",
+	"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/product/1d7dbb65f6b24b2db0401a80d07e84d9",
+	"SupportURL": "https://space-raccoon.com/get-in-touch/",
+	"EngineVersion": "5.4.0",
+	"CanContainContent": false,
+	"Installed": true,
+	"Modules": [
+		{
+			"Name": "NPC_Optimizator",
+			"Type": "Runtime",
+			"LoadingPhase": "Default",
+			"PlatformAllowList": [
+				"Win64",
+				"Mac",
+				"Linux",
+				"Android",
+				"IOS"
+			]
+		}
+	],
+	"Plugins": [
+		{
+			"Name": "Niagara",
+			"Enabled": true
+		},
+		{
+			"Name": "HairStrands",
+			"Enabled": true
+		}
+	]
+}

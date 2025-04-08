@@ -1,0 +1,30 @@
+{
+	"FileVersion": 3,
+	"Version": 3,
+	"VersionName": "3.2",
+	"FriendlyName": "HttpHelper",
+	"Description": "Helper functions to handle http request and websocket communication",
+	"Category": "Networking",
+	"CreatedBy": "RLoris",
+	"CreatedByURL": "https://rloris.github.io",
+	"DocsURL": "https://github.com/RLoris/HttpHelperDoc/",
+	"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/product/d6e73d57925e4acf89649cea5b686e86",
+	"SupportURL": "https://forms.gle/CpekZfTewGZrUVen7",
+	"EngineVersion": "5.4.0",
+	"CanContainContent": true,
+	"Installed": true,
+	"Modules": [
+		{
+			"Name": "HttpHelper",
+			"Type": "Runtime",
+			"LoadingPhase": "Default",
+			"PlatformAllowList": [
+				"Win64",
+				"Mac",
+				"IOS",
+				"Android",
+				"Linux"
+			]
+		}
+	]
+}

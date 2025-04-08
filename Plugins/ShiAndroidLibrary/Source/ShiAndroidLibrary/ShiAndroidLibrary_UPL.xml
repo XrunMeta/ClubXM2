@@ -1,0 +1,15 @@
+<root xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+  <init>   
+    <log text="Shi Android Library"/>
+  </init>
+
+  
+
+  <androidManifestUpdates>
+      <removePermission android:name="android.permission.WRITE_EXTERNAL_STORAGE"  />
+      <addPermission android:name="android.permission.WRITE_EXTERNAL_STORAGE" android:maxSdkVersion="26" />
+  </androidManifestUpdates>
+
+  </root>
