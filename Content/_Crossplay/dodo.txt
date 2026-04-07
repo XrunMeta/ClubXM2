@@ -1,0 +1,20 @@
+ Volume in drive D is DATA
+ Volume Serial Number is DC58-E50F
+
+ Directory of D:\XRUN-Rian-Projects\Unreal-Projects\ClubX_v2\Content\_Crossplay
+
+22/11/2023  10:03    <DIR>          .
+22/11/2023  07:48    <DIR>          ..
+20/11/2023  17:11    <DIR>          Blueprints
+20/11/2023  17:11           154.033 CrossplayAssetsMap.umap
+22/11/2023  10:03                 0 dodo.txt
+20/11/2023  17:08             2.578 DT_Clothes.uasset
+20/11/2023  17:11            16.748 DT_NPC.uasset
+20/11/2023  17:08           124.321 MapServer.umap
+14/11/2023  08:15            21.567 Map_NPC_Crossplay.umap
+21/11/2023  17:09    <DIR>          NPC
+20/11/2023  17:08             4.747 S_ClothesData.uasset
+10/11/2023  13:36             6.661 S_NPC.uasset
+14/11/2023  09:08    <DIR>          Widgets
+               8 File(s)        330.655 bytes
+               5 Dir(s)  178.027.311.104 bytes free
