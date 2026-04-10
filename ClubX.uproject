@@ -24,7 +24,7 @@
 		},
 		{
 			"Name": "EOSIntegrationKit",
-			"Enabled": true,
+			"Enabled": false,
 			"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/product/dba0aa05bdd144e69405653a387ad63e"
 		},
 		{
@@ -81,12 +81,16 @@
 			"Enabled": false
 		},
 		{
+			"Name": "XRBase",
+			"Enabled": true
+		},
+		{
 			"Name": "MovieRenderPipeline",
 			"Enabled": true
 		},
 		{
 			"Name": "MinimapPlugin",
-			"Enabled": true,
+			"Enabled": false,
 			"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/content/ad08325742e24fb0836391bca25c72bb"
 		},
 		{
@@ -150,7 +154,7 @@
 		},
 		{
 			"Name": "OculusPlatform",
-			"Enabled": false,
+			"Enabled": true,
 			"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/product/7ce814580ba341b4bb5865983fea9d31",
 			"SupportedTargetPlatforms": [
 				"Win64",
