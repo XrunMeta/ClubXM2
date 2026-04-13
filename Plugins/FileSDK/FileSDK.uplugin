@@ -1,0 +1,29 @@
+{
+	"FileVersion": 3,
+	"Version": 23,
+	"VersionName": "2.5",
+	"FriendlyName": "Blueprint FileSDK",
+	"Description": "A simple plugin to interact with files and folders within blueprints.",
+	"Category": "Code Plugins",
+	"CreatedBy": "Incanta Games",
+	"CreatedByURL": "https://incanta.games",
+	"DocsURL": "https://wiki.incanta.games/plugins/filesdk",
+	"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/product/4f737815666c4e7dabf2043fb55a8419",
+	"SupportURL": "https://discord.gg/BSrAccCRYc",
+	"EngineVersion": "5.4.0",
+	"CanContainContent": false,
+	"Installed": true,
+	"Modules": [
+		{
+			"Name": "FileSDK",
+			"Type": "Runtime",
+			"LoadingPhase": "PreLoadingScreen",
+			"PlatformAllowList": [
+				"Win64",
+				"Mac",
+				"Linux",
+				"LinuxArm64"
+			]
+		}
+	]
+}

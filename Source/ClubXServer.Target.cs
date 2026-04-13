@@ -7,7 +7,7 @@ public class ClubXServerTarget : TargetRules
     public ClubXServerTarget(TargetInfo Target) : base(Target)
     {
         Type = TargetType.Server;
-        DefaultBuildSettings = BuildSettingsVersion.V2;
+        DefaultBuildSettings = BuildSettingsVersion.V5;
 
         ExtraModuleNames.AddRange(new string[] { "ClubX" });
     }

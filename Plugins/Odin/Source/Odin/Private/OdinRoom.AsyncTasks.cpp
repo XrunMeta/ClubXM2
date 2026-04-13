@@ -1,0 +1,1 @@
+/* Copyright (c) 2022-2024 4Players GmbH. All rights reserved. */

@@ -24,7 +24,7 @@
 		},
 		{
 			"Name": "EOSIntegrationKit",
-			"Enabled": false,
+			"Enabled": true,
 			"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/product/dba0aa05bdd144e69405653a387ad63e"
 		},
 		{
@@ -90,7 +90,7 @@
 		},
 		{
 			"Name": "MinimapPlugin",
-			"Enabled": false,
+			"Enabled": true,
 			"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/content/ad08325742e24fb0836391bca25c72bb"
 		},
 		{
