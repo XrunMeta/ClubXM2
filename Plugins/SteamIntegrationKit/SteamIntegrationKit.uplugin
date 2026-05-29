@@ -1,0 +1,44 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "Git-1.8-11cc9d4",
+	"FriendlyName": "Steam Integration Kit",
+	"Description": "The most ultimate Steam plugin with complete support of Blueprints",
+	"Category": "Betide Studio",
+	"CreatedBy": "Betide Studio",
+	"CreatedByURL": "https://betide.studio",
+	"EngineVersion": "5.4.0",
+	"DocsURL": "https://sik.betide.studio",
+	"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/product/122c9894af2649c8a9c2a25452562547",
+	"SupportURL": "https://discord.gg/betidestudio",
+	"CanContainContent": true,
+	"IsBetaVersion": false,
+	"IsExperimentalVersion": false,
+	"Installed": false,
+	"Modules": [
+		{
+			"Name": "SteamIntegrationKit",
+			"Type": "Runtime",
+			"LoadingPhase": "PostDefault",
+			"PlatformAllowList": [
+				"Win64",
+				"Mac",
+				"Linux"
+			]
+		}
+	],
+	"Plugins": [
+		{
+			"Name": "OnlineSubsystem",
+			"Enabled": true
+		},
+		{
+			"Name": "OnlineSubsystemUtils",
+			"Enabled": true
+		},
+		{
+			"Name" : "OnlineSubsystemSteam",
+			"Enabled" : true
+		}
+	]
+}

@@ -1,6 +1,6 @@
 {
 	"FileVersion": 3,
-	"EngineAssociation": "{313B3E6F-407B-ED8A-5F76-FE8245013226}",
+	"EngineAssociation": "{F3E02546-427A-2F25-6C22-C4A719886B20}",
 	"Category": "",
 	"Description": "",
 	"Modules": [
@@ -150,6 +150,14 @@
 		},
 		{
 			"Name": "SkeletalMeshModelingTools",
+			"Enabled": true
+		},
+		{
+			"Name": "OnlineSubsystemSteam",
+			"Enabled": true
+		},
+		{
+			"Name": "SteamIntegrationKit",
 			"Enabled": true
 		}
 	],
