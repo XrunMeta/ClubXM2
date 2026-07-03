@@ -1,0 +1,29 @@
+{
+	"FileVersion" : 3,
+	"Version" : 1,
+	"VersionName" : "1.03",
+	"FriendlyName" : "Virtual Cursor",
+	"Description" : "",
+	"Category" : "Rama",
+	"CreatedBy" : "Rama",
+	"CreatedByURL" : "https://forums.unrealengine.com/showthread.php?299-Wiki-Code-Tutorials",
+	"DocsURL" : "",
+	"MarketplaceURL" : "",
+	"SupportURL" : "",
+	"CanContainContent" : false,
+	"IsBetaVersion" : false,
+	"Installed" : true,
+	"RequiresBuildPlatform" : false,
+	"Modules" :
+	[
+		{
+			"Name" : "VirtualCursor",
+			"Type" : "Runtime",
+			"LoadingPhase" : "PreDefault",
+			"WhitelistPlatforms" :
+			[
+				"Win64"
+			]
+		}
+	]
+}
