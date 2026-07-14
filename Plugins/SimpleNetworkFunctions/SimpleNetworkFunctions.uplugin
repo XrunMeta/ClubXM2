@@ -1,0 +1,27 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "1.0",
+	"FriendlyName": "Simple Network Functions",
+	"Description": "This simple Unreal Engine plugin allows obtaining the player's local IP address during the game.",
+	"Category": "Networking",
+	"CreatedBy": "Sebastian Legieziński",
+	"CreatedByURL": "https://github.com/seba0456/",
+	"DocsURL": "",
+	"MarketplaceURL": "",
+	"SupportURL": "",
+	"EngineVersion": "5.4.0",
+	"CanContainContent": true,
+	"IsBetaVersion": true,
+	"Installed": true,
+	"Modules": [
+		{
+			"Name": "SimpleNetworkFunctions",
+			"Type": "Runtime",
+			"LoadingPhase": "Default",
+			"PlatformAllowList": [
+				"Win64"
+			]
+		}
+	]
+}
